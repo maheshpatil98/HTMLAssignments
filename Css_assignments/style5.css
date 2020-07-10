@@ -1,0 +1,8 @@
+table {
+  border-collapse: collapse;
+}
+/*border collapse is use to make table border single */
+/*if the border collapse is set on seperate it makes an individual border around each cell, making a double border*/
+table, th, td {
+  border: 2px solid black;
+}
