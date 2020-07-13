@@ -1,0 +1,98 @@
+
+    h3,h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        color: dimgrey;
+        text-align: center;
+        border: firebrick;
+    }
+
+    h1{
+        font-size: 50px;
+        text-align: center;
+        font-family: cursive;
+        color: dimgrey;
+    text-shadow: 2px 2px 2px #CCCCCC;
+    }
+
+    #a{
+        font-family: Arial, Helvetica, sans-serif;
+        color: gainsboro;
+        text-align: left;
+        border: red;
+        padding: 30pt;
+    }
+
+    #b{
+        font-family: inherit;
+        font-size: 30px;
+        color: #333;
+        text-align: right;
+        padding-right: 25pt;
+        border: red;
+    }
+
+    #c{
+      text-align: right;
+      padding-right: 25pt;
+      position: fixed;
+    }
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: seashell;
+        
+    }
+    i{
+        font-family: Arial, Helvetica, sans-serif;
+        color: seashell;
+        text-align: left;
+    }
+    .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 12px 28px;
+}
+
+
+
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  color: aliceblue;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: slategray;
+}
+/*
+.active {
+  background-color: slategray;
+}*/
+
